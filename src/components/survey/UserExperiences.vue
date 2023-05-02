@@ -54,6 +54,9 @@ export default {
   components: {
     SurveyResult,
   },
+  mounted(){
+    this.loadExperiences();
+  }
 };
 </script>
 
